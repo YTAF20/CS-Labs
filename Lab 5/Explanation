@@ -1,0 +1,5 @@
+Essentially for this problem at first we traverse through the tree making
+sure that all the values to the left of the root are smaller than the root
+adjusting for how big the number can be as we traverse through it then the same
+for the right side except this time it has to be bigger than the root, if it 
+passes both it should return true

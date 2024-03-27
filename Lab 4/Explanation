@@ -1,0 +1,6 @@
+My plan for this lab was essentially to start all the way from the bottom 
+of one side and work my way up from there, first recursively we went all 
+the way down to the bottom of the tree, once we find the left bottom most node
+we go up and swap the left and right children on the left side then we do the same 
+thing on the right side before lastly swapping the left and right children of
+the root then returning the root value
