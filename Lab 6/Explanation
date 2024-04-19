@@ -1,0 +1,6 @@
+For this problem we essentially had to find out if there
+are any cycles and if there are return false, if not return
+true, decided that I could use topological sorting and if it's 
+able to visit every vertice, then we know its true since 
+topological sorting wont visit every node if theres a cycle. I used a 
+BFS algorithm to traverse the graph
