@@ -1,0 +1,6 @@
+For this problem the approach I decided to go with
+was first this is obviously a dynamic programming problem,
+and solved it by making an array of how little coins it would
+take to get to each amount, by starting from every possible options
+and checking remainders choosing the minimum option, then essentially
+just combining it at the end.
